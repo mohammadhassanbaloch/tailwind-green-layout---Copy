@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container2{
+    /* @apply w-4/5 mx-auto: */
+    @apply w-4/5 mx-auto;
+}
+
+.theme-custom-button {
+    @apply text-white bg-primary px-5 py-2 w-[207px]   rounded;
+  }
